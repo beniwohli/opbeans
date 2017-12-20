@@ -5,7 +5,8 @@ let serverUrl = process.env.ELASTIC_APM_JS_BASE_SERVER_URL;
 
 initApm({
   serviceName: serviceName,
-  serverUrl: serverUrl
+  serverUrl: serverUrl,
+  debug: true,
 })
 
 import React from 'react'
